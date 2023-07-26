@@ -16,10 +16,8 @@ return new class extends Migration
         Schema::create('empleados_detalle_traducciones', function (Blueprint $table) {
             $table->id();
             $table->text('desc');
-            $table->text('desc');
             $table->text('p_tiempos');
             $table->string('idioma');
-            $table->string('c_empleado');
             $table->timestamps();
         });
     }
